@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The layout BEM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__body">
+            <div class="container__header">
+                <div class="container__title title-line">
+                    <div class="container__inner-head">
+                        <h1 class="title">Кино в Москве</h1>
+                        <div class="container__calendar">
+                            <select class="container__select" name="text" id="when">
+                                <option value="when">&#128197; Когда</option>
+                                <option value="today">Сегодня</option>
+                                <option value="tomorrow">Завтра</option>
+                                <option value="after-week">Через неделю</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__inner">
+                    <div class="container__subtitle">В кино сегодня</div>
+                    <div><a class="container__link" href="Index.html">Посмотреть всё &gt;</a></div>
+                </div>
+            </div>
+            <div class="container__row">
+                <div class="container__column">
+                    <div class="item-container">
+                        <div class="item-container__picture item-container_bg_neboskreb">
+                            <div class="item-container__rating rating_well">6,4</div>
+                            <div class="item-container__tickets">Есть билеты</div>
+                        </div>
+                        <div class="item-container__inner">
+                            <div class="item-container__category">Боевик</div>
+                            <div class="item-container__title">Небоскрёб</div>
+                            <div class="item-container__text">В главное роли Дуэйн Джонсон</div>
+                            <div class="item-container__cinema">в 125 кинотеатрах</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__column">
+                    <div class="item-container">
+                        <div class="item-container__picture item-container_bg_chelovek-murovey">
+                            <div class="item-container__rating rating_excellent">7,2</div>
+                            <div class="item-container__tickets">Есть билеты</div>
+                        </div>
+                        <div class="item-container__inner">
+                            <div class="item-container__category">Фантастика</div>
+                            <div class="item-container__title">Человек-Муровей и Оса</div>
+                            <div class="item-container__text">От режисёра фильма "Всегда говори "Да"</div>
+                            <div class="item-container__cinema">в 133 кинотеатрах</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__column">
+                    <div class="item-container">
+                        <div class="item-container__picture item-container_bg_monstri">
+                            <div class="item-container__rating rating_well">6,7</div>
+                            <div class="item-container__tickets">Есть билеты</div>
+                        </div>
+                        <div class="item-container__inner">
+                            <div class="item-container__category">Мультфильм</div>
+                            <div class="item-container__title">Монстры на каникулах 3: Море зовёт</div>
+                            <div class="item-container__text">Русский дубляж от Полины Гагариной</div>
+                            <div class="item-container__cinema">в 135 кинотеатрах</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "the_layout_bem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adzapol/The_layout_BEM.git"
+  },
+  "author": "adzapol13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adzapol/The_layout_BEM/issues"
+  },
+  "homepage": "https://github.com/adzapol/The_layout_BEM#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

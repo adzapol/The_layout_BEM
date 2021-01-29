@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  min-width: 400px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .container__body {
+    max-width: 1280px;
+    margin: 0 auto; }
+  .container__header {
+    margin-bottom: 15px; }
+  .container__title {
+    margin: 100px 0px 30px 0px; }
+  .container__inner-head {
+    display: flex;
+    align-items: center; }
+  .container__calendar {
+    margin-left: 30px; }
+  .container__select {
+    font-size: 16px;
+    padding: 5px; }
+  .container__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .container__subtitle {
+    font-size: 28px; }
+  .container__link {
+    font-size: 20px;
+    text-decoration: none;
+    vertical-align: middle; }
+  .container__row {
+    display: flex;
+    justify-content: space-between; }
+  .container__column {
+    border: 1px solid white; }
+    .container__column:hover {
+      border: 1px solid silver; }
+  @media (max-width: 1255px) {
+    .container__row {
+      flex-direction: column;
+      align-items: center; }
+    .container__column {
+      border: 1px solid silver;
+      margin-bottom: 10px; } }
+
+.title {
+  font-size: 38px;
+  font-weight: 700; }
+
+.title-line {
+  position: relative;
+  text-align: left; }
+  .title-line:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 60px;
+    left: 0;
+    background-color: silver;
+    margin: 0px 0px 0px 0px; }
+
+.item-container__picture {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.item-container_bg_neboskreb {
+  background-image: url(/img/container/01.jpg); }
+
+.item-container_bg_chelovek-murovey {
+  background-image: url(/img/container/02.jpg); }
+
+.item-container_bg_monstri {
+  background-image: url(/img/container/03.jpg); }
+
+.item-container__rating {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  padding: 7px 14px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700; }
+
+.item-container__tickets {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px 15px;
+  background-color: yellow;
+  font-size: 20px;
+  font-weight: 600; }
+
+.item-container__inner {
+  max-width: 300px;
+  margin: 10px auto; }
+
+.item-container__category {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #474747;
+  margin-bottom: 10px; }
+
+.item-container__title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px; }
+
+.item-container__text {
+  font-size: 18px;
+  margin-bottom: 10px; }
+
+.item-container__cinema {
+  color: #474747; }
+
+.rating_well {
+  background-color: slategray; }
+
+.rating_excellent {
+  background-color: green; }
