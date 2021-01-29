@@ -72,13 +72,13 @@
   background-size: cover; }
 
 .item-container_bg_neboskreb {
-  background-image: url(/img/container/01.jpg); }
+  background-image: url(../img/container/01.jpg); }
 
 .item-container_bg_chelovek-murovey {
-  background-image: url(/img/container/02.jpg); }
+  background-image: url(../img/container/02.jpg); }
 
 .item-container_bg_monstri {
-  background-image: url(/img/container/03.jpg); }
+  background-image: url(../img/container/03.jpg); }
 
 .item-container__rating {
   position: absolute;
