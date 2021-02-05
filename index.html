@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,68 +7,75 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="container__body">
-            <div class="container__header">
-                <div class="container__title title-line">
-                    <div class="container__inner-head">
-                        <h1 class="title">Кино в Москве</h1>
-                        <div class="container__calendar">
-                            <select class="container__select" name="text" id="when">
-                                <option value="when">&#128197; Когда</option>
-                                <option value="today">Сегодня</option>
-                                <option value="tomorrow">Завтра</option>
-                                <option value="after-week">Через неделю</option>
-                            </select>
-                        </div>
+    <div class="container-outer">
+        <div class="container-inner">
+            <div class="header header--outer">
+                <div class="header__title title-line">
+                    <h1 class="title header__title--fs">Кино в Москве</h1>
+                    <div class="header__calendar">
+                        <select class="header__select" name="text" id="when">
+                            <option value="when">&#128197; Когда</option>
+                            <option value="today">Сегодня</option>
+                            <option value="tomorrow">Завтра</option>
+                            <option value="after-week">Через неделю</option>
+                        </select>
                     </div>
                 </div>
-                <div class="container__inner">
-                    <div class="container__subtitle">В кино сегодня</div>
-                    <div><a class="container__link" href="index.html">Посмотреть всё &gt;</a></div>
+                <div class="header__subtitle">
+                    <div>В кино сегодня</div>
+                    <a class="header__link" href="index.html">Посмотреть всё &gt;</a>
                 </div>
             </div>
-            <div class="container__row">
-                <div class="container__column">
-                    <div class="item-container">
-                        <div class="item-container__picture item-container_bg_neboskreb">
-                            <div class="item-container__rating rating_well">6,4</div>
-                            <div class="item-container__tickets">Есть билеты</div>
-                        </div>
-                        <div class="item-container__inner">
-                            <div class="item-container__category">Боевик</div>
-                            <div class="item-container__title">Небоскрёб</div>
-                            <div class="item-container__text">В главное роли Дуэйн Джонсон</div>
-                            <div class="item-container__cinema">в 125 кинотеатрах</div>
-                        </div>
+            <div class="row">
+                <div class="move-card move-card--mrb">
+                    <div class="move-card__picture">
+                        <picture>
+                            <source media="(max-width: 472px)" srcset="img/container/Skyscraper-300w.jpg">
+                            <source media="(min-width: 473px)" srcset="img/container/Skyscraper-400w.jpg">
+                            <img src="img/container/Skyscraper-400w.jpg" alt="Skyscraper">
+                        </picture>
+                        <div class="move-card__rating move-card__rating--well">6,4</div>
+                        <div class="move-card__tickets">Есть билеты</div>
+                    </div>
+                    <div class="move-card__inner">
+                        <div class="move-card__category">Боевик</div>
+                        <div class="move-card__title">Небоскрёб</div>
+                        <div class="move-card__text">В главное роли Дуэйн Джонсон</div>
+                        <div class="move-card__cinema">в 125 кинотеатрах</div>
                     </div>
                 </div>
-                <div class="container__column">
-                    <div class="item-container">
-                        <div class="item-container__picture item-container_bg_chelovek-murovey">
-                            <div class="item-container__rating rating_excellent">7,2</div>
-                            <div class="item-container__tickets">Есть билеты</div>
-                        </div>
-                        <div class="item-container__inner">
-                            <div class="item-container__category">Фантастика</div>
-                            <div class="item-container__title">Человек-Муровей и Оса</div>
-                            <div class="item-container__text">От режисёра фильма "Всегда говори "Да"</div>
-                            <div class="item-container__cinema">в 133 кинотеатрах</div>
-                        </div>
+                <div class="move-card move-card--mrb">
+                    <div class="move-card__picture">
+                        <picture>
+                            <source media="(max-width: 472px)" srcset="img/container/Ant-Man-300w.jpg">
+                            <source media="(min-width: 473px)" srcset="img/container/Ant-Man-400w.jpg">
+                            <img src="img/container/Ant-Man-400w.jpg" alt="Skyscraper">
+                        </picture>
+                        <div class="move-card__rating move-card__rating--excellent">7,2</div>
+                        <div class="move-card__tickets">Есть билеты</div>
+                    </div>
+                    <div class="move-card__inner">
+                        <div class="move-card__category">Фантастика</div>
+                        <div class="move-card__title">Человек-Муравей и Оса</div>
+                        <div class="move-card__text">От режисёра фильма "Всегда говори "Да"</div>
+                        <div class="move-card__cinema">в 133 кинотеатрах</div>
                     </div>
                 </div>
-                <div class="container__column">
-                    <div class="item-container">
-                        <div class="item-container__picture item-container_bg_monstri">
-                            <div class="item-container__rating rating_well">6,7</div>
-                            <div class="item-container__tickets">Есть билеты</div>
-                        </div>
-                        <div class="item-container__inner">
-                            <div class="item-container__category">Мультфильм</div>
-                            <div class="item-container__title">Монстры на каникулах 3: Море зовёт</div>
-                            <div class="item-container__text">Русский дубляж от Полины Гагариной</div>
-                            <div class="item-container__cinema">в 135 кинотеатрах</div>
-                        </div>
+                <div class="move-card move-card--mrb">
+                    <div class="move-card__picture">
+                        <picture>
+                            <source media="(max-width: 472px)" srcset="img/container/Monsters-300w.jpg">
+                            <source media="(min-width: 473px)" srcset="img/container/Monsters-400w.jpg">
+                            <img src="img/container/Monsters-400w.jpg" alt="Skyscraper">
+                        </picture>
+                        <div class="move-card__rating move-card__rating--well">6,7</div>
+                        <div class="move-card__tickets">Есть билеты</div>
+                    </div>
+                    <div class="move-card__inner">
+                        <div class="move-card__category">Мультфильм</div>
+                        <div class="move-card__title">Монстры на каникулах 3: Море зовёт</div>
+                        <div class="move-card__text">Русский дубляж от Полины Гагариной</div>
+                        <div class="move-card__cinema">в 135 кинотеатрах</div>
                     </div>
                 </div>
             </div>
