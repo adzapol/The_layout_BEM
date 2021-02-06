@@ -88,9 +88,7 @@
   .move-card__picture {
     width: 400px;
     height: 200px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover; }
+    position: relative; }
   .move-card__rating {
     position: absolute;
     top: 30px;
@@ -130,9 +128,17 @@
     margin-bottom: 10px;
     margin-right: 10px; }
 
+@media (max-width: 1250px) {
+  .row {
+    justify-content: flex-start; } }
+
 @media (max-width: 856px) {
   .row {
     justify-content: center; } }
+
+@media (max-width: 827px) {
+  .move-card--mrb {
+    margin-right: 0; } }
 
 @media (max-width: 472px) {
   .container-outer {
@@ -152,9 +158,7 @@
     .move-card__title {
       font-size: 18px; }
     .move-card__text {
-      font-size: 14px; }
-    .move-card--mrb {
-      margin-right: 0; } }
+      font-size: 14px; } }
 
 @media (max-width: 467px) {
   .header__link {
