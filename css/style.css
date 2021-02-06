@@ -178,8 +178,8 @@
   .title-line:after {
     top: 83px; } }
 
-.move-card__rating--well {
+.move-card__rating--silver {
   background-color: slategray; }
 
-.move-card__rating--excellent {
+.move-card__rating--green {
   background-color: green; }
